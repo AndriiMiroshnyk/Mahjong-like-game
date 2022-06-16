@@ -1,0 +1,45 @@
+$bg-color: white;
+$text-color: black;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    line-height: 1;
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+    color: $text-color;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    padding: 30px 0;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card {
+    width: 60px;
+    height: 70px;
+    box-shadow: 2px 2px 2px 2px lighten($text-color, 80%);
+    border-radius: 3px;
+    margin: 8px;
+    line-height: 70px;
+    font-size: 32px;
+}
