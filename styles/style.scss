@@ -42,4 +42,16 @@ body {
     margin: 8px;
     line-height: 70px;
     font-size: 32px;
+    cursor: pointer;
+}
+
+.btn {
+    display: block;
+    padding: 24px 48px;
+    margin: 50px auto;
+    font-size: 36px;
+    box-shadow: 2px 2px 2px 2px lighten($text-color, 80%);
+    border-radius: 5px;
+    background-color: $bg-color;
+    cursor: pointer;
 }
